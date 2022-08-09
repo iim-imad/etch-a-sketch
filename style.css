@@ -1,0 +1,21 @@
+body {
+    background-color:rgba(58, 139, 150, 0.596);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid {
+    margin-top: 10px;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+}
+
+.grid-element {
+    border: 1px solid rgba(0, 0, 0, .1);
+}
